@@ -1,0 +1,63 @@
+\documentclass[12pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size 
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{eso-pic}
+\usepackage[export]{adjustbox}
+%\usepackage{tikz} 
+
+\usepackage{xcolor}
+\definecolor{ustblue}{RGB}{0,57,116}
+
+\geometry{
+	top=1cm,
+	bottom=2cm,
+	left=2cm,
+	right=2cm,
+}
+
+\newcommand\BackgroundPicture{
+   \put(0,0){
+     \parbox[b][\paperheight]{\paperwidth}{
+       \vfill
+		%\node[opacity=.06]
+       \centering\includegraphics[width=0.3\paperwidth,height=0.3\paperheight,keepaspectratio]{background.png}
+       \vfill
+     }}}
+\AddToShipoutPicture{\BackgroundPicture}
+
+\begin{document}
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=3in]{hkust_logo}\\
+\end{minipage}
+\hfill
+\begin{minipage}{0.6\textwidth}\raggedright
+\small{\textbf{\color{ustblue}Referee: }Name\\
+\textbf{\color{ustblue}Address: }Room XXXX, Academic Building\\
+\hphantom{AA}Department of XXX\\
+\hphantom{AA}Hong Kong University of Science and Technology\\
+\hphantom{AA}Clear Water Bay, Kowlon\\
+\hphantom{AA}Hong Kong SAR, P. R. China\\
+\textbf{\color{ustblue}Phone: }(852) XXXX-XXXX\\
+\textbf{\color{ustblue}Email: }XXX@ust.hk }
+\end{minipage}
+
+\today
+
+This student is so good! This student is so good!\\
+
+This student is so good! This student is so good!\\
+
+This student is so good!\\
+This student is so good!\\
+
+Please do not hesitate to contact me if you need me to provide more information.
+
+Sincerely,
+
+\includegraphics[width=2.5in]{signature}
+
+XXX,\\
+Professor in the Department of XXX,\\
+Hong Kong University of Science and Technology\\
+PhD in XXX, University of California, Berkeley
+\end{document}
