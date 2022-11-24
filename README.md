@@ -1,5 +1,5 @@
 # HKUST-Reference-Letter-Template
-~~Download the whole file to use.~~
+~~Download the whole file to use.~~  
 HKUST does not suck a lot, ha, there are still good persons.
 # Overleaf Link
 Click the link below to directly use this template on overleaf.  
